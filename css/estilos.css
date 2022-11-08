@@ -53,7 +53,12 @@ section {
                                                 ESTILOS  GRUPO RENAULT
 */
 .grupo {
-  background: linear-gradient(to right, rgba(10, 10, 10, 0.4), rgba(8, 8, 8, 0.8)), url(../img/grupo-renault.webp);
+  background: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.4),
+      rgba(8, 8, 8, 0.8)
+    ),
+    url(../img/grupo-renault.webp);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Lato:ital,wght@0,300;0,400;0,900;1,300;1,700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
 }
-html{
-    font-family: 'Lato', sans-serif;
-    font-size:13px;
+html {
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
 }
 
-.bold{
-    font-weight: bold;
+.bold {
+  font-weight: bold;
 }
 
 /*
@@ -18,33 +18,29 @@ html{
                                                 ESTILOS  HEADER
 */
 
-header{
-    background-color: black;
-
+header {
+  background-color: black;
 }
-header .tamaño{
-    width: 6rem;
-    height: 8rem;
+header .tamaño {
+  width: 6rem;
+  height: 8rem;
 }
 
-.fuente{
-    font-size: .75rem;
-    
+.fuente {
+  font-size: 0.75rem;
 }
 /*
 ########################################################################################################################################
 ##########################################################################################################################################
                                                 ESTILOS  MENU PRINCIPAL
 */
-section{
-    position: relative;
+section {
+  position: relative;
 }
-.fijo{
-    position:sticky;
-    top: 0;
-    z-index: 99;
-    
-    
+.fijo {
+  position: sticky;
+  top: 0;
+  z-index: 99;
 }
 
 /*
@@ -53,22 +49,24 @@ section{
                                                 ESTILOS  GRUPO RENAULT
 */
 
-.grupo{
-    background:linear-gradient(to right, rgba(10, 10, 10, 0.4) , rgba(8, 8, 8, .8) ),
+.grupo {
+  background: linear-gradient(
+      to right,
+      rgba(10, 10, 10, 0.4),
+      rgba(8, 8, 8, 0.8)
+    ),
     url(../img/grupo-renault.webp);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    padding: 1rem;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 1rem;
 }
 
-.imagen-trezor img{
-    width: 100%;
-    display: block;
-    object-fit: cover;
-    object-position: center;
-
-    
+.imagen-trezor img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  object-position: center;
 }
 
 /*
@@ -77,64 +75,61 @@ section{
                                                 ESTILOS  ASIDE
 */
 .Component5v0__title {
-    position: relative;
-    padding-bottom: 16px;
-    margin: 16px 0;
-    font-size: 1rem;
-    text-align: left;
-    font-weight: 700;
+  position: relative;
+  padding-bottom: 16px;
+  margin: 16px 0;
+  font-size: 1rem;
+  text-align: left;
+  font-weight: 700;
 }
 .Component5v0__title:after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    display: block;
-    width: 50px;
-    border-bottom: 1px solid;
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  display: block;
+  width: 50px;
+  border-bottom: 1px solid;
 }
 
-.trofeo img{
-    width: 40px;
-    height: 60px;
-    margin: auto;
+.trofeo img {
+  width: 40px;
+  height: 60px;
+  margin: auto;
 }
 
-.btn{
-    border-radius: 0!important;
+.btn {
+  border-radius: 0 !important;
 }
 
-.hover:hover{
-    background-color: #efdf00;
-    color: #000;
-    font-weight: bold;
-
+.hover:hover {
+  background-color: #efdf00;
+  color: #000;
+  font-weight: bold;
 }
 
-.borde-color{
-    border-bottom: 2px solid #efdf00 ;
+.borde-color {
+  border-bottom: 2px solid #efdf00;
 }
 
-.borde-color:hover{
-    border-bottom:2px solid #000;
+.borde-color:hover {
+  border-bottom: 2px solid #000;
 }
 
-.fixed{
-    position: fixed;
-    bottom: 50%;
-    right: 0;
-    z-index: 99;
+.fixed {
+  position: fixed;
+  bottom: 50%;
+  right: 0;
+  z-index: 99;
 }
 
-@media (max-width:768px) {
-    .fixed{
-        display: none;
-    }
-    
+@media (max-width: 768px) {
+  .fixed {
+    display: none;
+  }
 }
-@media (max-width:576px) {
-    .fixed{
-        display: none;
-    }
-    
+@media (max-width: 576px) {
+  .fixed {
+    display: none;
+  }
 }
